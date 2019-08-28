@@ -4,7 +4,7 @@ largo=`tput cols`
 pos=`expr $largo / 2`
 tput cup 0 `expr $pos - 7 `
 tput setaf 3
-echo "INICIA SECION"
+echo "INICIA SESION"
 tput setaf 2
 tput cup 1 1
 echo "Ingresa nombre de usuario:"
